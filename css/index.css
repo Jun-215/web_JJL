@@ -1,0 +1,96 @@
+ /* 轮播图模块 */
+ .slideshow img {
+   width: 100%;
+   height: 100%;
+ }
+
+ /* 最新专辑 */
+ .new_album {
+   margin-bottom: 8rem;
+ }
+
+ .new_album .c {
+   overflow: hidden;
+ }
+
+ .new_album .c img {
+   transition: all .5s;
+ }
+
+ .new_album .c:hover img {
+   transform: scale(1.3);
+ }
+
+ .music_all {
+   /* 实现水平居中 */
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   opacity: 0;
+   z-index: 999;
+   font-size: 1.8rem;
+   transition: all .8s;
+
+
+ }
+
+ .all_music:hover .music_all {
+   opacity: 1 !important;
+ }
+
+ /* 新歌首唱 */
+ .new_song .card:hover {
+   /* box-shadow: -1px 2px 16px rgb(0 0 0 / 20%); */
+   box-shadow: 0px 2px 15px rgb(0 0 0 / 50%)
+ }
+
+ .card_shade {
+   transition: all 0.5s;
+   box-shadow: 0px 2px 15px rgb(0 0 0 / 10%)
+ }
+
+ /* scene_live */
+ .scene_live a {
+   display: block;
+   text-decoration: none;
+   /* background-color: #29293a; */
+   transition: all .3s;
+ }
+
+ .scene_live_up {
+   position: absolute;
+   top: 0px;
+   transition: all .3s;
+ }
+
+ .scene_live_up:hover {
+   top: -10px;
+
+ }
+
+ .scene_live a h6 {
+   color: #212529 !important;
+   /* font-size: 0.rem; */
+   /* font-weight: 700; */
+ }
+
+ /* .scene_live .row .col-sm {
+   transform-style: preserve-3d;
+ } */
+
+ .scene_live .row,
+ img {
+   transition: all .5s;
+ }
+
+ .scene_live .scene_live_shade:hover {
+   box-shadow: -1px 2px 16px rgb(0 0 0 / 20%);
+   transform: translateY(-20px);
+ }
+
+ /* .scene_live .scene_live_shade img {} */
+
+ /* .scene_live .scene_live_shade:hover img {
+   transform: scale(1.2);
+ } */

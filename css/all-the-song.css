@@ -1,0 +1,23 @@
+header {
+    margin-top: 11rem;
+}
+
+
+.all-the-songs .c img {
+    /* filter: grayscale(60%); */
+    /* width: 80% !important; */
+    transition: all .5s;
+}
+
+.all-the-songs .c:hover img {
+    transform: scale(1.2);
+    opacity: 0.6;
+    /* FILTER: gray; */
+    /* filter: gray; */
+    /* filter: grayscale(0%);
+    filter: contrast(100%); */
+}
+
+.songs_name a h5 {
+    color: rgb(135, 128, 116)
+}

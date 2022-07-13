@@ -1,0 +1,11 @@
+.song {
+    background: #fff;
+}
+
+.song_shade {
+    box-shadow: 0px 0 30px rgb(54 52 58 / 10%);
+}
+
+.song .card {
+    border: 0;
+}
